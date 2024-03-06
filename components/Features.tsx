@@ -58,7 +58,7 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
       <h2 className="bold-20 lg:bold-32 mt-5 capitalize">
         {title}
       </h2>
-      <p className="regular-16 mt-3 bg-white/80 text-gray-30 lg:mt-[20px] lg:bg-none">
+      <p className="regular-16 mt-3 bg-white/20 text-gray-30 lg:mt-[20px] lg:bg-none">
         {description}
       </p>
     </li>

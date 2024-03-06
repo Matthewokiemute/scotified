@@ -41,7 +41,7 @@ const Navbar = () => {
       </div>
 
       {/* <!-- MOBILE SCREEN --> */}
-      <div className="fixed top-8 right-8 z-50">
+      <div className="fixed top-5 right-8 z-50">
         {!showMobileMenu ? (
           <button onClick={showMenuFunc}>
             <Image

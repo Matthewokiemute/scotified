@@ -14,7 +14,7 @@ const GetApp = () => {
               type="button"
               title="Want a Website/Mobile App?"
             //   icon="/apple.svg"
-              variant="btn_white"
+              variant="btn_green"
               full
             />
             <Button 

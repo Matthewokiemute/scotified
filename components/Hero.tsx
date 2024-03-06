@@ -43,7 +43,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-col w-full gap-3 sm:flex-row">
+        <div className="flex flex-col mx-auto w-full gap-3 sm:flex-row">
           <Button
             type="button"
             title="Start Your Journey Now"
@@ -58,7 +58,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative flex flex-1 items-start -mt-28 lg:mt-0">
+      <div className="relative flex flex-1 items-start -mt-20 lg:mt-0">
         <Image
           src="/hero-img.png"
           alt="camp"
