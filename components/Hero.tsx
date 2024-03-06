@@ -37,7 +37,7 @@ const Hero = () => {
               ))}
           </div>
 
-          <p className="bold-16 lg:bold-20 text-blue-70">
+          <p className="bold-18 lg:bold-20 text-blue-70">
             Learn. Apply. Job-ready.
             {/* <span className="regular-16 lg:regular-20 ml-1">Excellent Reviews</span> */}
           </p>
