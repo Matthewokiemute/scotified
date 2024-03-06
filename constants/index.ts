@@ -70,7 +70,7 @@ export const NAV_LINKS = [
     links: [
       { label: 'Contact Us', value: '+2349059680186' },
       { label: 'Email Us', value: 'help@scotified.com' },
-      { label: 'Address', value: 'Suite B3 IYE Plaza Along Refinery Road' },
+      { label: 'Address', value: `Suite B3 IYE Plaza, Refinery Road` },
     ],
   };
   
