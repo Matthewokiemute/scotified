@@ -21,8 +21,8 @@ const Hero = () => {
           programs.
         </p>
 
-        <div className="my-11 flex flex-wrap gap-5">
-          {/* <div className="flex items-center gap-2">
+        <div className="mt-8 mb-11 flex flex-wrap gap-5">
+          <div className="flex items-center gap-2">
             {Array(5)
               .fill(1)
               .map((_, index) => (
@@ -34,7 +34,7 @@ const Hero = () => {
                   height={24}
                 />
               ))}
-          </div> */}
+          </div>
 
           <p className="bold-18 lg:bold-20 text-blue-70">
             Learn. Apply. Job-ready.
