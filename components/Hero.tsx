@@ -18,12 +18,11 @@ const Hero = () => {
         <p className="regular-18 mt-6 text-gray-30 xl:max-w-[520px]">
           Get the skills you need today for a successful tomorrow. Take a big
           step towards your new career by taking one of our diploma training
-          programs. With Scotified Academy, discover a new way of learning: 20%
-          theory, 80% practice.
+          programs.
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
-          <div className="flex items-center gap-2">
+          {/* <div className="flex items-center gap-2">
             {Array(5)
               .fill(1)
               .map((_, index) => (
@@ -35,7 +34,7 @@ const Hero = () => {
                   height={24}
                 />
               ))}
-          </div>
+          </div> */}
 
           <p className="bold-18 lg:bold-20 text-blue-70">
             Learn. Apply. Job-ready.

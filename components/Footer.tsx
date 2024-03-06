@@ -12,6 +12,8 @@ const Footer = () => {
             <span className="text-2xl font-medium">
               Scotti<span className="font-semibold text-green-50">fied.</span>
             </span>
+            <span className="regular-18 mt-6 text-gray-30 xl:max-w-[520px]">With Scotified Academy, discover a new way of learning: 20%
+          theory, 80% practice.</span>
           </Link>
 
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
