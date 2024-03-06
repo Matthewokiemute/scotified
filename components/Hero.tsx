@@ -66,24 +66,24 @@ const Hero = () => {
           height={5000}
           className="md:w-[600px] md:h-[600px] md:object-contain"
         />
-        <div className="absolute -bottom-20 z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8 lg:-bottom-20 lg:right-20">
+        <div className="absolute -bottom-20 z-20 flex w-[300px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8 lg:-bottom-20 lg:right-20">
                     
            <div className="flex flex-col">
             <div className="flexBetween">
               <Image src="/close.svg" alt="close" width={24} height={24} />
-              <p className="regular-16 text-gray-20">Location</p>
+              <p className="regular-16 text-gray-20">Courses</p>
             </div>
-            <p className="bold-20 text-white text-right">Aguas Calientes</p>
+            <p className="bold-20 text-white text-right">5 Courses</p>
           </div>
 
           <div className="flexBetween">
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Distance</p>
-              <p className="bold-20 text-white">173.28 mi</p>
+              <p className="regular-16 block text-gray-20">Students</p>
+              <p className="bold-20 text-white">35+ Taught</p>
             </div>
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Elevation</p>
-              <p className="bold-20 text-white">2.040 km</p>
+              <p className="regular-16 block text-gray-20">Jobs/Interns</p>
+              <p className="bold-20 text-white">6+ Gained</p>
             </div>
           </div>
         </div>
