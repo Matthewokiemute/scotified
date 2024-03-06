@@ -8,13 +8,17 @@ const Footer = () => {
     <footer className="flexCenter mb-24">
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
-          <Link href="/" className="mb-10">
-            <span className="text-2xl font-medium">
-              Scotti<span className="font-semibold text-green-50">fied.</span>
-            </span>
-            <span className="regular-18 mt-6 text-gray-30 xl:max-w-[520px]">With Scotified Academy, discover a new way of learning: 20%
-          theory, 80% practice.</span>
-          </Link>
+          <div className="mb-10 flex flex-col gap-3">
+            <Link href="/">
+              <span className="text-2xl font-medium">
+                Scotti<span className="font-semibold text-green-50">fied.</span>
+              </span>
+            </Link>
+            <p className="regular-18 mt-6 text-gray-30 xl:max-w-[520px]">
+              With Scotified Academy, discover a new way of learning: 20%
+              theory, 80% practice.
+            </p>
+          </div>
 
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
             {FOOTER_LINKS.map((columns) => (
