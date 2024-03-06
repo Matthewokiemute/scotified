@@ -18,32 +18,32 @@ export const NAV_LINKS = [
   // FEATURES SECTION
   export const FEATURES = [
     {
-      title: 'Real maps can be offline',
+      title: 'Graphic Design',
       icon: '/map.svg',
       variant: 'green',
       description:
-        'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+        'Dive into the world of graphic design and learn to create captivating visuals for web and print. Unleash your creativity with amazing designs.',
     },
     {
-      title: 'Set an adventure schedule',
+      title: 'UI/UX Design',
       icon: '/calendar.svg',
       variant: 'green',
       description:
-        "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+        "Master the art of user interface and experience design. More towards understanding how to design intuitive interfaces.",
     },
     {
-      title: 'Technology using augment reality',
+      title: 'Frontend & Backend Development',
       icon: '/tech.svg',
       variant: 'green',
       description:
-        'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+        'Delve into frontend and backend development to create dynamic web applications. Get to write codes in HTML, CSS, JavaScript, ReactJS, NextJs, Node, and lots more',
     },
     {
-      title: 'Many new locations every month',
+      title: 'Digital Marketing',
       icon: '/location.svg',
       variant: 'orange',
       description:
-        'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+        'Explore the realm of digital marketing and learn to captivate audiences online. Discover new ways of growing a digital audience monthly through a vibrant global community.',
     },
   ];
   

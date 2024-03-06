@@ -25,7 +25,7 @@ const Features = () => {
               height={100}
               className="absolute left-[-5px] top-[-28px] w-10 lg:w-[50px]"
             />
-            <h2 className="bold-40 lg:bold-64">Our Features</h2>
+            <h2 className="bold-40 lg:bold-64">Our Courses</h2>
           </div>
           <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
             {FEATURES.map((feature) => (
@@ -58,7 +58,7 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
       <h2 className="bold-20 lg:bold-32 mt-5 capitalize">
         {title}
       </h2>
-      <p className="regular-16 mt-5 bg-white/80 text-gray-30 lg:mt-[30px] lg:bg-none">
+      <p className="regular-16 mt-3 bg-white/80 text-gray-30 lg:mt-[20px] lg:bg-none">
         {description}
       </p>
     </li>
