@@ -10,7 +10,7 @@ interface FormDetails {
   how: string;
 }
 
-export default async function handler(
+export async function POST(
   req: NextApiRequest,
   res: NextApiResponse
 ): Promise<void> {
