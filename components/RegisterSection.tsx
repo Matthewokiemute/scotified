@@ -83,11 +83,11 @@ const RegisterSection = () => {
     // Handle form submission
     console.log(form);
     setLoading(true);
-    const response = await fetch("/api/submit", {
-      method: "POST" as const,
+    const response: Response = await fetch("/api/submit", {
+      method: "POST" as const, // Ensures method is "POST"
       headers: {
         Accept: "application/json",
-        "Content-type": "application/json",
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(form),
     });

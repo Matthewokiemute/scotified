@@ -10,13 +10,13 @@ interface FormDetails {
   how: string;
 }
 
-export default async function POST(
+export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ): Promise<void> {
-  // if (req.method !== "POST") {
-  //   return res.status(405).json({ message: "Only POST requests are allowed" });
-  // }
+  if (req.method !== "POST") {
+    return res.status(405).json({ message: "Only POST requests are allowed" });
+  }
 
   const formDetails: FormDetails = req.body;
 
