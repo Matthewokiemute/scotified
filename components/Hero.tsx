@@ -45,7 +45,7 @@ const Hero = () => {
 
         <div className="flex flex-col mx-auto w-full gap-3 sm:flex-row">
           <Link href="https://forms.gle/CCmMZon9gWWYqA7y5">
-            <Button type="button" title="Apply Now" variant="btn_green" />
+            <Button type="button" title="Apply Now" variant="btn_green" full />
           </Link>
           {/* <Button
             type="button"
