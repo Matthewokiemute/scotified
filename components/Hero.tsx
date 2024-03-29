@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Button from "./Button";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -43,17 +44,15 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col mx-auto w-full gap-3 sm:flex-row">
-          <Button
+          <Link href="https://forms.gle/CCmMZon9gWWYqA7y5">
+            <Button type="button" title="Apply Now" variant="btn_green" />
+          </Link>
+          {/* <Button
             type="button"
-            title="Start Your Journey Now"
-            variant="btn_green"
-          />
-          <Button
-            type="button"
-            title="How we work?"
+            title="Contact Us"
             icon="/play.svg"
             variant="btn_white_text"
-          />
+          /> */}
         </div>
       </div>
 
@@ -66,8 +65,7 @@ const Hero = () => {
           className="md:w-[600px] md:h-[600px] md:object-contain"
         />
         <div className="absolute -bottom-20 z-20 flex w-[300px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8 lg:-bottom-20 lg:right-20">
-                    
-           <div className="flex flex-col">
+          <div className="flex flex-col">
             <div className="flexBetween">
               <Image src="/close.svg" alt="close" width={24} height={24} />
               <p className="regular-16 text-gray-20">Courses</p>

@@ -68,8 +68,8 @@ export const NAV_LINKS = [
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Contact Us', value: '+2349059680186' },
-      { label: 'Email Us', value: 'help@scotified.com' },
+      { label: 'Contact Us', value: 'tel:+2349059680186' },
+      { label: 'Email Us', value: 'mailto:help@scottified.com' },
       { label: 'Address', value: `Suite B3 IYE Plaza, Refinery Road` },
     ],
   };
