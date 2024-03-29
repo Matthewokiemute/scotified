@@ -32,12 +32,14 @@ const Navbar = () => {
       </ul>
 
       <div className="lg:flexCenter hidden">
+      <a href="https://wa.me/+2349059680186">
         <Button
           type="button"
           title="Contact Us"
           icon="/user.svg"
           variant="btn_dark_green"
         />
+        </a>
       </div>
 
       {/* <!-- MOBILE SCREEN --> */}
@@ -79,7 +81,7 @@ const Navbar = () => {
               ))}
               <Button
               type="button"
-              title="Start Your Journey Now"
+              title="Apply Now"
               variant="btn_green"
             />
             <Button
